@@ -33,7 +33,7 @@ body{
     text-transform: uppercase;
     font-size: 20px;
     color: #fff;
-    background-image: linear-gradient(#ff7e5f ,#feb47b);
+    background-image: linear-gradient(to left,#ff9472 ,#f2709c);
     
 }
 .half-width h1 span{
@@ -63,7 +63,7 @@ body{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
    
 }
 .third-section h1 {
@@ -88,11 +88,14 @@ body{
     box-shadow: 1px 1px 20px  #807f7f,-1px -1px 20px  #888888;
     width: 40%;
     padding: 40px;
-    
-    border-image-source: linear-gradient(to bottom, #de6161, #2657eb);
-    border-left: 10px solid;
+    border-radius: 5px 5px 5px 5px;
+    border-image-source: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    border-left: 6px solid;
     border-image-slice: 1;
     
+}
+.third-section .container .half-width:nth-child(2){
+    border-image-source: linear-gradient(to bottom, #2270d4, #117ba5);
 }
 footer p{
     text-align: center;
