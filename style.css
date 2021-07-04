@@ -71,7 +71,7 @@ body{
   
 }
 .padding{
-    padding-left: 20px;
+    padding-left: 63px;
 }
 .third-section h3 {
     color: #ff7e5f;
@@ -85,7 +85,7 @@ body{
     margin: 0 auto;
 }
 .third-section .container .half-width{
-    box-shadow: 1px 1px 20px  #807f7f,-1px -1px 20px  #888888;
+    box-shadow: 1px 1px 30px  #807f7f,-1px -1px 30px  #888888;
     width: 40%;
     padding: 40px;
     border-radius: 5px 5px 5px 5px;
