@@ -3,7 +3,7 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-.section{
+.first-section{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -12,13 +12,12 @@ body{
 }
 .half-width{
     width: 50%;
-    padding: 20px 80px;
+    padding: 20px 60px;
 }
 .half-width h1{
     font-size: 50px;
-    line-height: 100px;
-    padding: 0;
-    margin: 0;
+   
+   
 
 }
 .half-width p{
@@ -46,14 +45,57 @@ body{
 
 }
 .second-section{
+    display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 80px;
     
 }
 .second-section h1{
-    font-size: 50px;
+    font-size: 40px;
     line-height: 100px;
     padding: 0;
     margin: 0;
+}
+.third-section{
+   
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 80px;
+   
+}
+.third-section h1 {
+    font-size: 35px;
+  
+}
+.padding{
+    padding-left: 20px;
+}
+.third-section h3 {
+    color: #ff7e5f;
+    font-size: 25px;
+  
+}
+.third-section .container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.third-section .container .half-width{
+    box-shadow: 1px 1px 20px  #807f7f,-1px -1px 20px  #888888;
+    width: 40%;
+    padding: 40px;
+    
+    border-image-source: linear-gradient(to bottom, #de6161, #2657eb);
+    border-left: 10px solid;
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align: center;
+    color: rgb(110, 110, 110);
+    font-size: 16px;
 }
