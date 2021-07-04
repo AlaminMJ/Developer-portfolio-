@@ -1,3 +1,28 @@
-h1{
-    color: brown;
+body{
+    margin:0 ;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.half-width{
+    width: 50%;
+    padding: 0 70px;
+}
+.header .half-width h1{
+    font-size: 50px;
+    line-height: 120px;
+
+}
+.header .half-width h1 span{
+    color: orange;
+}
+.header .half-width img{
+    width: 100%;
+    height: 100%;
+
 }
